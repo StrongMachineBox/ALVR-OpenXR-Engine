@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <assert.h>
 #include "reedsolomon/rs.h"
-#include "../app/src/main/cpp/bindings.h"
+#include "bindings.h"
 
 enum ALVR_PACKET_TYPE {
 	ALVR_PACKET_TYPE_TRACKING_INFO = 6,
