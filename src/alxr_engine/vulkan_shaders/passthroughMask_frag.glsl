@@ -8,7 +8,7 @@
 #pragma fragment
 
 // TODO: Make this into a specialization constant.
-const vec3 key_color = vec3(0.01, 0.01, 0.01);
+const vec3 key_color = vec3(0.4, 0.4, 0.4);
 
 #include "common/baseVideoFrag.glsl"
 
