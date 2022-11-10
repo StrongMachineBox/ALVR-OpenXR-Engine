@@ -17,7 +17,7 @@ INSTALL_DIR=${INSTALL_DIR:-${ROOT}/build-android-install}
 
 ANDROID_STL=$(grep ext.stl "${ROOT}/src/loader/build.gradle" | sed -E 's/.*"(.*)"/\1/')
 CONFIG=Release
-ANDROID_PLATFORM=24
+ANDROID_PLATFORM=28
 
 rm -rf "${INSTALL_DIR}"
 if [ -d "${BUILD_DIR}" ]; then
