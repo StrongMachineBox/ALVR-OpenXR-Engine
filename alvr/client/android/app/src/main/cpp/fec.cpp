@@ -2,8 +2,8 @@
 #include <algorithm>
 #include <stdlib.h>
 #include <inttypes.h>
-#include "fec.h"
 #include "rs.h"
+#include "fec.h"
 #include "packet_types.h"
 #ifndef ALXR_CLIENT
 #include "utils.h"
