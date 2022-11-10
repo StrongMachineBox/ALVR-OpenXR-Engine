@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <inttypes.h>
 #include "fec.h"
-#include "reedsolomon/rs.h"
+#include "rs.h"
 #include "packet_types.h"
 #ifndef ALXR_CLIENT
 #include "utils.h"

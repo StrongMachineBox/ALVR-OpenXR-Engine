@@ -5,7 +5,7 @@
 #include <vector>
 #include <mutex>
 #include "packet_types.h"
-#include "reedsolomon/rs.h"
+#include "rs.h"
 
 class FECQueue {
 public:
